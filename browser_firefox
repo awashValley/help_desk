@@ -1,3 +1,12 @@
 
 // configuration
-about:config
+   about:config
+
+// Turn off Geolocation in Firefox and Opera browsers
+  - Disabling geolocation in the Firefox browser requires accessing the advanced configuration setting. 
+  Simply type about:config in the address bar of Firefox and hit the enter key on the keyboard. 
+  Click the box “I’ll be careful, I promise!” to proceed using the option.
+  - In the filter box, type geo. (Type the keyword geo with a period at the end) 
+    The browser should display two preference names: geo.enabled and geo.wifi.uri. 
+    - Double-click geo.enabled to disable geolocation. 
+    - Double-click geo.wifi.uri and then type localhost to replace the web address, https://www.google.com/loc/json.
