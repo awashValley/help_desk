@@ -2,7 +2,7 @@
 // configuration
    about:config
 
-// Turn off Geolocation in Firefox and Opera browsers
+// Turn off Geolocation in Firefox
   - Disabling geolocation in the Firefox browser requires accessing the advanced configuration setting. 
   Simply type about:config in the address bar of Firefox and hit the enter key on the keyboard. 
   Click the box “I’ll be careful, I promise!” to proceed using the option.
